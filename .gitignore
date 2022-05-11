@@ -1,3 +1,5 @@
 # ignore .env file
 .env
 produtos.json
+
+__pycache__
