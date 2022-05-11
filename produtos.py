@@ -132,10 +132,12 @@ def get_product(codigo):
 
     produto = requests.get(url, params=payload)
     sleep(1)
+    return produto.json()["retorno"]["produtos"][0]['produto']
+
+
+def get_produto(codigo):
+    produto = find_codigoPai_by_codigo(codigo)["produto"]
     return produto
-
-
-
 
 
 def get_produtoLoja(idLoja, codigo):
