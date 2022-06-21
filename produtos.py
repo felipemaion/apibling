@@ -167,3 +167,14 @@ def get_produtoLojas(codigo):
         if produtoLoja != {}:
             lojasdoProduto['produtoLojas'].append(produtoLoja)
     return lojasdoProduto
+
+
+# Produtos a investigar: 
+# 101033811
+# AL-MYBABY-003
+# KECOMS8
+# 101033351
+# 101033763
+# TUTTICARE85
+# ET4ZN9NEN
+# 12117

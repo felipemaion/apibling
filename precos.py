@@ -112,7 +112,7 @@ def calcular_frete(peso, precoVenda):
         frete = 165.95
         
     if precoVenda < 79:
-        frete *= 2
+        frete = 0
     return frete
 
 def calcular_custo(produto, precoVenda):
